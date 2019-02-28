@@ -10,6 +10,7 @@ const
 const config = {
   entry: [
     'bootstrap/dist/css/bootstrap.min.css',
+    './src/styles/public.less',
     './src/app.js'
   ],
 
