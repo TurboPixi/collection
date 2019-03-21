@@ -4,7 +4,8 @@ export default [
     path: '/tasks',
     component: () => import('./tasks/entry.vue'),
     children: [
-      {path: 'table', component: () => import('./tasks/table.vue')}
+      {path: 'table', component: () => import('./tasks/table.vue')},
+      {path: 'slide', component: () => import('./tasks/slide.vue')}
     ]
   }
 ]
