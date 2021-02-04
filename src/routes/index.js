@@ -7,6 +7,7 @@ export default [
       {path: 'table', component: () => import('./tasks/table.vue')},
       {path: 'slide', component: () => import('./tasks/slide.vue')},
       {path: 'wave', component: () => import('./tasks/wave.vue')},
+      {path: 'avatar', component: () => import('./tasks/avatar.vue')},
     ]
   }
 ]
